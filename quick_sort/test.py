@@ -1,4 +1,4 @@
-import selectionSort
+import quick_sort
 
 
 def test1():
