@@ -16,7 +16,8 @@ def test2():
     expected = False
     assert output == expected, output
 
-
+    
+# 但是这个测试有一个问题。只测了从a->b有没有路径，没有测是不是最短路径。
 def test3():
     input = 'claire'
     output = search.search(input)
