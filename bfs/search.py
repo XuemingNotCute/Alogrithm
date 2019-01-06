@@ -1,7 +1,7 @@
 from collections import deque
 
 
-# 这个算法的背景是检查人际网络的有向图里面，某人的好友里有无芒果营销商。
+# 这个算法的背景是检查人际网络的有向图里面，某人的好友里有无芒果营销商。要点一, 用散列表表示图
 def return_dict(name):
     graph = dict()
     graph['you'] = ['bob', 'alice', 'claire']
@@ -20,6 +20,7 @@ def person_is_seller(name):
 
 
 def search(name):
+    # 要点二, 用队列实现 bfs
     search_queue = deque()
     search_queue.extend(return_dict(name))
     # searched 是记录了已经被检查过的元素，这样防止重复检查，避免死循环危险
