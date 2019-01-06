@@ -1,5 +1,6 @@
 # Alogrithm
-in python
+- in python
+- 代码规范以 PEP8 规范为准。
 
 
 每一个单独的算法都包括三个文件:
@@ -7,13 +8,9 @@ in python
 2. 测试
 3. 自动测试 （自动测试会自动跑测试，修改测试后会自动刷新。运行的话我们就运行这个自动测试文件就可以，不过你得改一下test.py这个才会出结果。）
 
-ps: 代码规范以 PEP8 规范为准。
 
 
-
-## hacking practice
-
-- 使用到的操作系统： Kali, Windows 10, Windows 7
+## 算法列表
 
 | Number | Alogrithms|Time| 
 |-----------|-------------|----|
