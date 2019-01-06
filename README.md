@@ -18,6 +18,7 @@
 |02|[binary_search](https://github.com/XuemingNotCute/Alogrithm/tree/master/binary_search)|2019/1/4|
 |03|[quick_sort](https://github.com/XuemingNotCute/Alogrithm/tree/master/quick_sort)|2019/1/5|  
 |04|[bfs](https://github.com/XuemingNotCute/Alogrithm/tree/master/bfs) |2019/1/6|
+|05|[dijkstra](https://github.com/XuemingNotCute/Alogrithm/tree/master/dijkstra) |2019/1/6|
 
 
 
